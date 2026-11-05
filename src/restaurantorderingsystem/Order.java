@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/** Composition: an order owns its copied list of order lines. */
 public class Order implements Discountable {
     private static int nextNumber = 1;
 
